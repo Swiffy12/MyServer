@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: darkorange;
+    padding: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+input {
+    height: 30px;
+	width: 200px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.first_ul li{
+    padding: 5px;
+    text-align: left;
+    line-height: 30px;
+	padding: 0 0 0 25px;
+    background: none;
+    list-style-type: none;
+}
+
+.btn{
+	background: #9e3a20;
+	color: white;
+	border-radius: 20px;
+	height: 40px;
+	width: 200px;
+	letter-spacing: 3px;
+	box-shadow: 1px 1px 5px #a52c2c;	
+}

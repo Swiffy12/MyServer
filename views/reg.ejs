@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <ul class="first_ul">
+        <li><a href="/">На главную</a></li>
+        <li><a href="/reg">Регистрация</a></li>
+        <li><a href="/aut">Авторизация</a></li>
+    </ul>
+    <form method="post" action="/reg">
+        <h1>Регистрация</h1>
+    <div>
+        <p>Имя</p>
+        <input placeholder="Введите имя" type="text" name="username" tabindex="1">
+    </div>
+    <div>
+        <p>Фамилия</p>
+        <input placeholder="Введите фамилию" type="text" name="usersurname" tabindex="3">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input placeholder="Введите пароль" type="password" name="userpass" tabindex="2">
+    </div>
+    <div>
+        <p></p>
+        <button class="btn" type="submit">Зарегистрироваться</button>
+    </div>
+    </form>
+</body>
+</html>
